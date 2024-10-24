@@ -9,16 +9,17 @@ root = tk.Tk()
 root.title("Plant Watering Schedule")
 root.geometry("600x500")
 
-# Load the background image
-background_image = Image.open("C:/Users/hanad/OneDrive/Documents/plant_watering_schedule/4057631.jpg")  # Replace with your image file
+# Load the background image from the 'images' folder
+background_image = Image.open("images/4057631.jpg")
 background_photo = ImageTk.PhotoImage(background_image)
 
 # Create a label to display the background image
 background_label = tk.Label(root, image=background_photo)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)  # Make it fill the window
 
-# Set custom window icon (ensure favicon.ico is in the same folder as app_ui.py)
-root.iconbitmap(r"C:/Users/hanad/OneDrive/Documents/plant_watering_schedule/favicon.ico")
+# Set custom window icon from the 'images' folder
+root.iconbitmap("images/favicon.ico")
+
 
 # Function to animate text popping up
 def animate_text(text, label, index=0):
