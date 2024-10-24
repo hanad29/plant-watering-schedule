@@ -9,7 +9,7 @@ This application generates a 12-week watering schedule for plants, avoiding week
 - [app_ui.py](app_ui.py) - Main user interface for the Plant Watering Schedule app.
 - [watering_schedule.py](watering_schedule.py) - Logic for generating the watering schedule.
 - [README.md](README.md) - Documentation for the project.
-- [images/](images) - Folder containing the background image and favicon used in the application.
+- [images/](Images) - Folder containing the background image and favicon used in the application.
 - [Hanad's Plant Watering Schedule App Flowchart.pdf](Hanad's%20Plant%20Watering%20Schedule%20App%20Flowchart.pdf) - Flowchart demonstrating the process of generating the plant watering schedule.
 
 ### Bonus Challenge
