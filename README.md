@@ -9,7 +9,8 @@ This application generates a 12-week watering schedule for plants, avoiding week
 - [app_ui.py](app_ui.py) - Main user interface for the Plant Watering Schedule app.
 - [watering_schedule.py](watering_schedule.py) - Logic for generating the watering schedule.
 - [README.md](README.md) - Documentation for the project.
-- [favicon.ico](favicon.ico) - Custom icon used in the application.
+- [images/](images) - Folder containing the background image and favicon used in the application.
+- [Hanad's Plant Watering Schedule App Flowchart.pdf](Hanad's%20Plant%20Watering%20Schedule%20App%20Flowchart.pdf) - Flowchart demonstrating the process of generating the plant watering schedule.
 
 ### Bonus Challenge
 The app limits watering to 3 plants per day. If more than 3 plants need watering, the extras are rescheduled to nearby weekdays, with no watering happening on weekends.
